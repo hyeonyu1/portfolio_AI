@@ -10,21 +10,15 @@ const Contact = () => {
 
    const address = [<p>351 Cr de la Libération, 33400 Talence, France</p>];
    
-   const email = [<a href="mailto:subham28297@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-links">
-      <p>subham28297@gmail.com</p>
+   const email = [<a href="mailto:uhre123@gmail.com" target="_blank" rel="noopener noreferrer" className="contact-links">
+      <p>uhre123@gmail.com</p>
    </a>];
    
-   const blog = [<a href="https://subhamshome.medium.com" target="_blank" rel="noopener noreferrer" className="contact-links">
-      <p>Personal Blog</p>
-   </a>];
 
-   const facebook = [<a href="https://facebook.com/thesubhamshome" target="_blank" rel="noopener noreferrer" className="contact-links">
-      <p>Facebook</p>
-   </a>];
 
-   const instagram = [<a href="https://instagram.com/thesubhamshome" target="_blank" rel="noopener noreferrer" className="contact-links">
-      <p>Instagram</p>
-   </a>];
+   // const instagram = [<a href="https://instagram.com/thesubhamshome" target="_blank" rel="noopener noreferrer" className="contact-links">
+   //    <p>Instagram</p>
+   // </a>];
 
    const linkedin = [<a href="https://linkedin.com/in/subhamshome" target="_blank" rel="noopener noreferrer" className="contact-links">
       <p>LinkedIn</p>
@@ -44,18 +38,18 @@ const Contact = () => {
                      <div className='contact-item'>
                         <FontAwesomeIcon icon={faEnvelope} />{email}
                      </div>
-                     <div className='contact-item'>
+                     {/* <div className='contact-item'>
                         <FontAwesomeIcon icon={faMedium} />{blog}
-                     </div>
+                     </div> */}
                      <div className='contact-item'>
                         <FontAwesomeIcon icon={faLinkedin} />{linkedin}
                      </div>
-                     <div className='contact-item'>
+                     {/* <div className='contact-item'>
                         <FontAwesomeIcon icon={faFacebook} />{facebook}
-                     </div>
-                     <div className='contact-item'>
+                     </div> */}
+                     {/* <div className='contact-item'>
                         <FontAwesomeIcon icon={faInstagram} />{instagram}
-                     </div>
+                     </div> */}
                   </div>
                </div>
                <div className='contact-grid-2'>

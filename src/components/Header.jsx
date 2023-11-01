@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
  const [scrolling, setScrolling] = useState(false);
- const blog = 'https://subhamshome.medium.com';
+//  const blog = 'https://subhamshome.medium.com';
  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
  const toggleMobileMenu = () => {
@@ -62,7 +62,7 @@ const Header = () => {
         to='/' 
         className={`header-link ${scrolling ? 'scrolled-text' : ''}`}
         onClick={handleScrollToTopClick}>
-        <h2>Subham Shome</h2>
+        <h2> Hyeon Yu</h2>
       </Link>
       <nav className="nav">
         <a href="#about" className={`a ${scrolling ? 'scrolled-a' : ''}`} onClick={handleScrollToSection('about')}>
@@ -83,9 +83,6 @@ const Header = () => {
         <a href="#contact" className={`a ${scrolling ? 'scrolled-a' : ''}`} onClick={handleScrollToSection('contact')}>
           Contact
         </a>
-        <Link to={blog} target="_blank" className={`a ${scrolling ? 'scrolled-a' : ''}`}>
-          Blog
-        </Link>
         <Link to={resume} target="_blank" className={`header-button ${scrolling ? 'header-button-scrolled' : ''}`}>
           Resume
         </Link>
@@ -113,9 +110,7 @@ const Header = () => {
           <a href="#contact" className="scrolled-a" onClick={handleScrollToSection('contact')}>
             Contact
           </a>
-          <Link to={blog} target="_blank" className="scrolled-a">
-            Blog
-          </Link>
+          
           <br />
           <Link to={resume} target="_blank" className="header-button-scrolled">
             Resume

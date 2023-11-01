@@ -10,66 +10,71 @@ import opticdisc1 from '../assets/projects/opticdisc1.png';
 import scania from '../assets/projects/scania.png';
 import sdss from '../assets/projects/sdss.png';
 import signature from '../assets/projects/signature.png';
+import ahsl from '../assets/projects/ahsl.png';
+import drankle from '../assets/projects/drankle.png'
+import omni from '../assets/projects/omni.png'
+import VA from '../assets/projects/VA.png'
 
 
 const Projects = () => {
     const projectsData = [
         {
-        title: "Optic disc segmentation in Drishti-GS dataset",
-        description: "This project deals with the segmentation of optic disc from retinal fundus images from the famous Drishti-GS dataset",
-        image: opticdisc1,
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/optic-disc-segmentation-drishtigs"
+          title: "Vision Assitance",
+          description: "Winner of  Vision Assistance Cybathlon ETH Zurich",
+          image: VA,
+          buttonLabel: "Link",
+          buttonLink: "https://itk.ppke.hu/news-97/pazmany-itk-s-team-won-the-cybathlon-vis-challenge"
         },
         {
-        title: "Sloan Digital Sky Survey DR14",
-        description: "3-class classification of cosmological objects in the famous SDSS dataset, version DR14",
-        image: sdss, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/sloan-digital-sky-survey-sdss-dr14-ml"
+          title: "Dr. Ankle",
+          description: "An auto labelling ankle fracture application with Faster RCNN and Grad-CAM",
+          image: drankle, 
+          buttonLabel: "No Link",
+          buttonLink: ""
         },
         {
-        title: "Deepfake Detection",
-        description: "Detecting deep fake images using various ensemble classifiers",
-        image: deepfake, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/deepfake-detection"
+          title: "Deepfake Detection",
+          description: "School group project of detecting deep fake images using various ensemble classifiers",
+          image: deepfake, 
+          buttonLabel: "GitHub",
+          buttonLink: "https://github.com/subhamshome/deepfake-detection"
         },
         {
-        title: "ESA Hubble Dataset Creator",
-        description: "Creating the publicly available dataset from images taken by the Hubble Space telescope, by scraping from ESA's website",
-        image: hubble, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/esa-hubble-dataset-creator"
+          title: "Signature Recognition",
+          description: "School group project of recognising signatures and measuring the truth behind every one of them using feature analysis",
+          image: signature, 
+          buttonLabel: "GitHub",
+          buttonLink: "https://github.com/subhamshome/signature-recognition"
         },
         {
-        title: "Signature Recognition",
-        description: "Recognising signatures and measuring the truth behind every one of them using feature analysis",
-        image: signature, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/signature-recognition"
+          title: "Heart Murmur Classification",
+          description: "Normal or abnormal heard prediction using murmur signals",
+          image: murmur, 
+          buttonLabel: "GitHub",
+          buttonLink: "https://github.com/hyeonyu1/Murmurs-Classification"
         },
         {
-        title: "Heart Murmur Classification",
-        description: "Predicting a heart to be normal or abnormal based on the murmur signal classifications using simple ML algorithms",
-        image: murmur, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/murmur-classification"
+          title: "Scania Trucks - Air Pressure Failure Prediction",
+          description: "A classical machine learning algorithm based binary classification on the famous Scania APS dataset",
+          image: scania, 
+          buttonLabel: "GitHub",
+          buttonLink: "https://github.com/hyeonyu1/Scania-Trucks---APS-Failure-Prediction"
         },
         {
-        title: "Scania Trucks - Air Pressure Failure Prediction",
-        description: "A classical machine learning algorithm based binary classification on the famous Scania APS dataset",
-        image: scania, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/scania-aps-fail-pred-ml"
+          title: "Edmonton Housing Affordability Dashboard",
+          description: "Dashboard made for University of Alberta's Affordable Housing Solutions Team using React and Django",
+          image: ahsl, 
+          buttonLabel: "Demo",
+          buttonLink: "https://www.youtube.com/watch?v=v5cjcBJ-us4"
         },
         {
-        title: "Multiclass Weather Classification",
-        description: "Comparative analysis of ML and DL algorithms on the popular Multi-class Weather Dataset (MWD) for multi-class weather classification",
-        image: mwd, 
-        buttonLabel: "GitHub",
-        buttonLink: "https://github.com/subhamshome/multiclass-classification-weather-mwd"
-        },        
+          title: "Omnifit Brain Force",
+          description: "Mobile game using TypeScript and Angulaar CLI to help enhance concentraion by using EEG from Omnifit Brain.",
+          image: omni, 
+          buttonLabel: "GitHub",
+          buttonLink: "https://github.com/hyeonyu1/omnifit_brain_force"
+        },
+ 
     ];
       
     const [visibleProjects, setVisibleProjects] = useState(3);

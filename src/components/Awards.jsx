@@ -8,7 +8,7 @@ const Awards = () => {
       <div className='awards-div-main'>
         <div className='awards-text'>
             <div>
-                <div className='awards-item'>
+                {/* <div className='awards-item'>
                   <div style={{width: '40px'}}><FontAwesomeIcon icon={faAward} /></div>
                   <div>
                      <span className='award-text-header'>Sponsorship - Synapse AI Symposium</span>
@@ -17,7 +17,7 @@ const Awards = () => {
                      <br />
                      Selected among Synapse AI Symposium’s top 50 candidates at Milan, alongside global AI luminaries.
                   </div>
-                </div>
+                </div> */}
                 <div className='awards-item'>
                   <div style={{width: '40px'}}><FontAwesomeIcon icon={faTrophy} /></div>
                   <div>
@@ -48,7 +48,7 @@ const Awards = () => {
                      Granted full IPCV scholarship as one of only 3 non-EU citizens selected from more than 1000 applicants.
                   </div>
                 </div>
-                <div className='awards-item'>
+                {/* <div className='awards-item'>
                   <div style={{width: '40px'}}><FontAwesomeIcon icon={faMedal} /></div>
                   <div>
                      <span className='award-text-header'>Silver Medalist in Academics, BTech</span>
@@ -57,7 +57,7 @@ const Awards = () => {
                      <br />
                      Earned Silver Medal for B.Tech ECE with <span style={{fontWeight: 'bold'}}>9.26/10</span> GPA across 4 years.
                   </div>
-                </div>
+                </div> */}
             </div>
         </div>
      </div>

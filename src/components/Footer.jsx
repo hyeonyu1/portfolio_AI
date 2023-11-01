@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-column">
-          <p style={{textAlign: 'left'}}>&copy; 2023 Subham Shome<br />
+          <p style={{textAlign: 'left'}}>&copy; 2023 Hyeon Yu<br />
           </p>
         </div>
         <div className="footer-column">
