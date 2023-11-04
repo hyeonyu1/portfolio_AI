@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
 import AcademicBar from './AcademicBar';
-// import introImage from '../assets/introImage.png';
 import introImage from '../assets/introImage.jpeg';
 
 import Skills from './Skills';
@@ -60,7 +59,6 @@ const Home = () => {
     <div className='main-div-home'>
         <div id='home'>
                 <div className='hero'>
-                        {/* <HeroImage /> */}
                         <h1>Hyeon Yu</h1>
                         {heroText}
                 </div>

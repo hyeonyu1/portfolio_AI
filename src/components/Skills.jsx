@@ -19,22 +19,30 @@ import skimage from '../assets/skills/skimage.png';
 import sklearn from '../assets/skills/sklearn.png';
 import tensorflow from '../assets/skills/tensorflow.png';
 import vscode from '../assets/skills/vscode.png';
+import c from '../assets/skills/c.png'
+import java from '../assets/skills/java.png'
+import js from '../assets/skills/js.png'
+import mmdet from '../assets/skills/mmdet-logo.png'
+import einops from '../assets/skills/einops.png'
 import '../styles/skills.css';
 
 
 const all = [python, matlab, cpp, sql, tensorflow, keras, pytorch, opencv, skimage, 
     sklearn, pillow, numpy, pandas, matplotlib, git, latex, jupyter, anaconda, vscode, colab];
 
-const languages = [python, matlab, cpp, sql];
+const languages = [python, matlab, c, cpp, java, js, sql];
 
-const libraries = [tensorflow, keras, pytorch, opencv, sklearn, skimage, pillow, numpy, pandas, matplotlib];
+const libraries = [tensorflow, keras, pytorch, opencv, sklearn, skimage, pillow, numpy, pandas, matplotlib, einops];
 
-const tools = [git, latex, jupyter, anaconda, vscode, colab];
+const tools = [git, latex, jupyter, anaconda, vscode, colab, mmdet];
 
 const labels = {
     [python]: 'Python',
     [matlab]: 'Matlab',
     [cpp]: 'C++',
+    [c]: 'C',
+    [java]: 'Java',
+    [js]: 'JavaScript',
     [git]: 'Git',
     [keras]: 'Keras',
     [latex]: 'LaTeX',
@@ -52,6 +60,8 @@ const labels = {
     [anaconda]: 'Anaconda',
     [vscode]: 'Visual Studio Code',
     [colab]: 'Google Colab',
+    [mmdet]: 'MMDetection',
+    [einops]: 'einops'
 };
 
 const Skills = () => {

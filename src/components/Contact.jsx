@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
 
@@ -14,11 +14,6 @@ const Contact = () => {
       <p>uhre123@gmail.com</p>
    </a>];
    
-
-
-   // const instagram = [<a href="https://instagram.com/thesubhamshome" target="_blank" rel="noopener noreferrer" className="contact-links">
-   //    <p>Instagram</p>
-   // </a>];
 
    const linkedin = [<a href="https://linkedin.com/in/subhamshome" target="_blank" rel="noopener noreferrer" className="contact-links">
       <p>LinkedIn</p>
@@ -38,18 +33,10 @@ const Contact = () => {
                      <div className='contact-item'>
                         <FontAwesomeIcon icon={faEnvelope} />{email}
                      </div>
-                     {/* <div className='contact-item'>
-                        <FontAwesomeIcon icon={faMedium} />{blog}
-                     </div> */}
                      <div className='contact-item'>
                         <FontAwesomeIcon icon={faLinkedin} />{linkedin}
                      </div>
-                     {/* <div className='contact-item'>
-                        <FontAwesomeIcon icon={faFacebook} />{facebook}
-                     </div> */}
-                     {/* <div className='contact-item'>
-                        <FontAwesomeIcon icon={faInstagram} />{instagram}
-                     </div> */}
+                     
                   </div>
                </div>
                <div className='contact-grid-2'>

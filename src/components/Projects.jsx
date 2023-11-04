@@ -3,12 +3,8 @@ import ProjectCard from './ProjectCard';
 import '../styles/projects.css';
 
 import deepfake from '../assets/projects/deepfake.png';
-import hubble from '../assets/projects/hubble.png';
 import murmur from '../assets/projects/murmur.png';
-import mwd from '../assets/projects/mwd.png';
-import opticdisc1 from '../assets/projects/opticdisc1.png';
 import scania from '../assets/projects/scania.png';
-import sdss from '../assets/projects/sdss.png';
 import signature from '../assets/projects/signature.png';
 import ahsl from '../assets/projects/ahsl.png';
 import drankle from '../assets/projects/drankle.png'
